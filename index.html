@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Digital Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <div class="galaxy"></div>
+
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">MyPortfolio</h2>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Krupa</span></h1>
+      <p>A Passionate Software Developer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m a dedicated software developer passionate about creating interactive
+      and dynamic web experiences. This portfolio is designed to showcase my
+      skills, projects, and ways to connect with me.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class = "skill">C/C++</div>
+      <div class="skill">TypeScript</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Git</div>
+      <div class="skill">REST APIs</div>
+      <div class="skill">Problem Solving</div>
+      <div class="skill">Data Structures & Algorithms</div>
+      <div class="skill">UI/UX Design</div>   
+      <div class="skill">Version Control</div>
+      <div class="skill">Basic Cloud Services</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>2048 Game</h3>
+        <p>Developed the popular 2048 puzzle game using Python. The project implemented game mechanics such as tile merging, score tracking, and win/loss detection. Designed an interactive console-based interface to allow smooth gameplay and enhance user engagement. This project strengthened logical thinking and algorithmic problem-solving skills.</p>
+      </div>
+      <div class="project-card">
+        <h3>Employee Management System</h3>
+        <p>Built a full-stack Employee Management System to streamline employee data handling. The system allows CRUD (Create, Read, Update, Delete) operations for employee records, role management, and search functionalities. Developed the frontend with HTML, CSS, JavaScript and used Node.js for backend with efficient routing and API handling. Focused on creating a responsive UI and robust backend for real-world scalability</p>
+      </div>
+      <div class="project-card">
+        <h3>Museum Ticketing System</h3>
+        <p>Designed and implemented a ticket booking system for museums with features like ticket purchase, unique ticket ID generation, and record storage. The system integrated a Python backend with MySQL database to securely manage booking records. Frontend was developed using HTML, CSS, and JavaScript, providing an intuitive user interface for customers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Krupa. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
