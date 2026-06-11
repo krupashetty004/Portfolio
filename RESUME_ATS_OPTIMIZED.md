@@ -19,17 +19,20 @@ React 18, React 19, Next.js 16, TypeScript, Vite, HTML5, CSS3, Tailwind CSS, Soc
 **Backend & APIs:**  
 Node.js, Express.js (v4 & v5), REST APIs, Firebase Authentication, Firebase Admin SDK, Mongoose, MongoDB, MySQL, Database Schema Design, Error Handling, Middleware Architecture
 
+**Advanced Backend Architecture:**  
+Microservices Design, Asynchronous Task Processing (Celery, Redis), Real-time Communication (WebSockets, Socket.io), Message Queuing, Distributed Systems, Async/Await Patterns, Connection Pooling
+
 **AI & Machine Learning:**  
-Generative AI, Prompt Engineering, Model Evaluation, LLM Integration (Gemini, Ollama), FastAPI, Celery, Redis, Background Job Processing, YOLO Pose Detection
+Generative AI, Prompt Engineering, Model Evaluation, LLM Integration (Gemini, Ollama), FastAPI, Video Processing Pipeline, YOLO Pose Detection
 
-**DevOps & Tools:**  
-Git & GitHub, GitHub Actions, Docker, Docker Compose, Firebase Console, Vercel, ESLint, Postman, Nodemon, npm, TypeScript Compilation, CI/CD Fundamentals
+**DevOps & Deployment:**  
+Git & GitHub, Docker, Docker Compose, Firebase Console, Vercel, CI/CD Fundamentals, Environment Configuration, Service Orchestration
 
-**Databases & Storage:**  
-MongoDB, MySQL, Firebase Realtime Database, Firebase Storage, Redis (Message Broker & Caching), SQLite
+**Databases & Caching:**  
+MongoDB, MySQL, Firebase Realtime Database, Firebase Storage, Redis (Message Broker & Caching), SQLite, Database Indexing
 
-**System Architecture:**  
-Microservices Architecture, Async Task Processing, Real-time Communication, Message Queuing, Client-Server Communication, Distributed Systems Fundamentals
+**Developer Tools:**  
+ESLint, Postman, Nodemon, npm, TypeScript Compilation, Multer (File Uploads), Morgan (Logging), CORS Configuration
 
 ---
 
@@ -37,7 +40,7 @@ Microservices Architecture, Async Task Processing, Real-time Communication, Mess
 
 ### **Inbenne** | Bengaluru, Karnataka
 **Project Intern** | *October 2025 – Present*
-- Contributing to **Khel Khoj AI**, a full-stack sports analytics platform processing athlete video submissions
+- Contributing to **Khel Khoj AI**, a production-grade sports analytics platform processing athlete video submissions
 - Architected and maintained **Express.js + MongoDB backend** with Firebase authentication, supporting athlete profiles and job tracking
 - Designed **RESTful APIs** for video job management, athlete data retrieval, and performance metrics storage
 - Integrated **AI video processing pipeline** with asynchronous task handling using Celery, Redis, and FastAPI
@@ -57,83 +60,79 @@ Microservices Architecture, Async Task Processing, Real-time Communication, Mess
 - Worked on end-to-end Generative AI solutions and advanced prompt engineering techniques
 - Conducted model evaluation and benchmarking for AI integration into production applications
 - Assisted in technical documentation and testing frameworks for AI systems
-- Explored LLM integration patterns and evaluated model performance
 
 ---
 
-## UNIVERSITY PROJECTS & PORTFOLIO
+## MAJOR PROJECTS
 
-### **Khel Khoj AI** — Sports Analytics & Video Processing Platform
+### **1. Khel Khoj AI** — Sports Analytics & Video Processing Platform
 **Repository:** https://github.com/krupashetty004/khel-khoj-ai  
-**Status:** Production-Ready | **Tech Stack:** Next.js, React 19, Express.js, MongoDB, Firebase, FastAPI, Python, Celery, Redis
+**Status:** Production-Ready | **Tech Stack:** Next.js, React 19, Express.js, MongoDB, Firebase, FastAPI, Python, Celery, Redis, Docker
 
 **Architecture & Contributions:**
-- **Frontend:** Built responsive Next.js 16 dashboard for athletes to upload videos and track analysis jobs; implemented real-time status polling
-- **Backend:** Developed Express.js API (v5) with 5+ endpoints for job creation, retrieval, user authentication, and profile management
-- **Database:** Designed MongoDB schema for athletes, jobs, and video metadata; implemented Mongoose models with proper indexing
-- **AI Integration:** Integrated FastAPI service with Celery workers for asynchronous video processing (pose detection using YOLO)
-- **Key Features:**
-  - Firebase-based authentication for athletes and coaches
-  - Video upload with Multer file handling
-  - Asynchronous job queue processing with Redis
-  - Real-time performance metrics generation
-  - RESTful API with proper error handling and validation (Zod schemas)
-  - Docker Compose setup for multi-service orchestration
+- **Full-Stack Integration:** Built complete system spanning Next.js frontend, Express.js backend, MongoDB database, and FastAPI AI service
+- **Backend API Development:** Designed and developed 5+ RESTful endpoints for job creation, retrieval, user authentication, and profile management with proper validation (Zod schemas)
+- **Database Architecture:** Designed MongoDB schema for athletes, jobs, and video metadata with optimized indexing for query performance
+- **Asynchronous Processing:** Implemented Celery workers with Redis message broker for background video processing and metrics computation
+- **Real-Time Communication:** Built real-time job status polling system allowing athletes to track video analysis progress
+- **Firebase Integration:** Implemented Firebase authentication for secure athlete/coach access and Firebase Admin SDK integration
+- **Multi-Service Orchestration:** Configured Docker Compose for seamless local development and deployment of three independent services
+- **Problem-Solving:** Resolved complex integration challenges across service boundaries and database transactions
 
-**Technologies Mastered:** Next.js, Express.js, MongoDB, Redis, Docker, Async Processing, System Integration
+**Key Learnings:**  
+Microservices architecture, asynchronous job processing, real-time system design, database schema optimization, multi-service communication patterns, Docker orchestration, production-grade error handling
 
 ---
 
-### **Real-Time Chat Application** — WebSocket-Based Communication System
-**Frontend Repository:** https://github.com/krupashetty004/frontend-chat  
-**Backend Repository:** https://github.com/krupashetty004/backend-chat  
-**Tech Stack:** React 18, TypeScript, Vite, Express.js, Socket.io, Node.js
-
-**Architecture & Contributions:**
-- **Frontend:** Built interactive React chat interface with Socket.io-client for real-time messaging
-- **Backend:** Developed Express.js server with Socket.io middleware for bi-directional communication
-- **Real-Time Sync:** Implemented event-driven architecture for instant message delivery across multiple clients
-- **Key Features:**
-  - Scalable WebSocket connection handling
-  - CORS configuration for cross-origin requests
-  - TypeScript for type-safe backend development
-  - Production-ready error handling and connection management
-  - Deployed frontend on Vercel: https://frontend-chat-beta.vercel.app
-
-**Key Learning:** Understanding of real-time communication patterns and scaling WebSocket connections
-
----
-
-### **Shiva Fashion E-Commerce Platform** — Full-Stack Shopping Solution
+### **2. Shiva Fashion E-Commerce Platform** — Full-Stack Shopping Solution
 **Live Demo:** https://shiva-fashion-hyr.web.app/  
 **Tech Stack:** React, Vite, TypeScript, Node.js, Firebase (Auth, Realtime DB, Storage)
 
 **Architecture & Contributions:**
-- **Full-Stack Development:** Built complete e-commerce platform from UI to backend
-- **Frontend:** Responsive product catalog, shopping cart management, order checkout flow
-- **Admin Dashboard:** Product management, category administration, inventory tracking
-- **Backend:** Firebase Cloud Functions for order processing and user management
-- **Authentication:** Secure user registration and login with Firebase Auth
-- **Key Features:**
-  - Real-time product synchronization using Firebase Realtime Database
-  - Image optimization and external URL-based asset delivery
-  - Shopping cart persistence and order history
-  - Admin panel for store management
-  - Mobile-responsive design with Responsive CSS
+- **Full-Stack Development:** Built complete e-commerce platform handling product catalog, shopping cart, checkout, and admin management
+- **Frontend Architecture:** Responsive React interface with Vite for fast development, optimized component rendering
+- **Admin Dashboard:** Implemented product management, category administration, and real-time inventory tracking
+- **Authentication & Security:** Integrated Firebase Auth for secure user registration, login, and role-based access control
+- **Real-Time Database:** Leveraged Firebase Realtime Database for instant product synchronization across all users
+- **Asset Optimization:** Solved critical storage constraints by implementing external image hosting with URL-based delivery, reducing Firebase costs while maintaining image clarity
+- **Data Persistence:** Implemented shopping cart persistence and order history tracking with Firebase integration
 
-**Problem Solved:** Addressed storage constraints by implementing external image hosting, reducing Firebase storage consumption while maintaining image clarity
+**Key Learnings:**  
+E-commerce architecture, Firebase ecosystem (Auth, Realtime DB, Storage), real-time data synchronization, asset optimization strategies, payment flow design, user experience optimization, cloud cost management
 
 ---
 
-## ADDITIONAL PROJECTS
+## SKILLS DEVELOPED ACROSS OTHER PROJECTS
 
-### **Museum Ticketing System**
-**Repository:** https://github.com/krupashetty004/museum-ticketing-system  
-Event management and ticket reservation system
+Through additional repositories and projects, I've developed expertise in:
 
-### **Portfolio Website**
-**Repository:** https://github.com/krupashetty004/Portfolio  
-Personal portfolio showcasing skills and projects
+**Real-Time Communication Systems** *(Frontend-Chat & Backend-Chat)*
+- WebSocket protocol implementation with Socket.io
+- Event-driven architecture for bi-directional communication
+- CORS and connection management at scale
+- Client-server state synchronization
+
+**Museum Ticketing System**
+- Event management workflows
+- Reservation and booking systems
+- Database transaction handling
+- Business logic implementation
+
+**AI & Prompt Engineering Experimentation** *(Ai-For-Bharat)*
+- LLM integration patterns
+- Prompt optimization techniques
+- Model evaluation and comparison
+- AI solution architecture
+
+**Terra Infrastructure** *(Infrastructure as Code)*
+- Infrastructure automation concepts
+- Deployment configuration
+- Environment management
+
+**Additional Learning Repositories**
+- Python fundamentals (hello-world repository)
+- Portfolio development and personal branding
+- Mini-projects for technology exploration
 
 ---
 
@@ -174,14 +173,14 @@ Data Analysis, Operating Systems, Algorithms, Artificial Intelligence, DBMS, Com
 
 ## TECHNICAL ACHIEVEMENTS & HIGHLIGHTS
 
-✓ **Multi-Service System Architecture** — Successfully integrated 3 distinct services (Next.js frontend, Express.js backend, FastAPI AI service) with async job processing  
-✓ **Real-Time Communication** — Implemented WebSocket-based chat system handling multiple concurrent connections  
-✓ **Database Design & Optimization** — Designed MongoDB schemas for complex data relationships with proper indexing  
-✓ **API Development** — Created 10+ RESTful endpoints with proper authentication, validation, and error handling  
-✓ **Firebase Integration** — Proficient with Firebase Auth, Realtime Database, Storage, and Admin SDK  
-✓ **Full-Stack Deployment** — Deployed projects on Firebase Console and Vercel with CI/CD pipelines  
-✓ **Problem-Solving** — Resolved critical storage constraints through architectural redesign and external integration  
-✓ **Code Quality** — Maintained clean, documented code with TypeScript, ESLint, and best practices
+✓ **Multi-Service System Architecture** — Successfully integrated 3 distinct services with async job processing and real-time communication  
+✓ **Backend API Design** — Created RESTful endpoints with proper authentication, validation, and error handling  
+✓ **Database Optimization** — Designed MongoDB schemas with indexing for optimal query performance  
+✓ **Asynchronous Processing** — Implemented Celery + Redis for background task execution  
+✓ **Real-Time Systems** — Built WebSocket-based communication and real-time data synchronization  
+✓ **Firebase Integration** — Proficient with Auth, Realtime Database, Storage, and Admin SDK  
+✓ **Full-Stack Deployment** — Deployed projects on Firebase Console and Vercel with CI/CD  
+✓ **Problem-Solving** — Resolved critical storage constraints through architectural redesign  
 
 ---
 
@@ -191,8 +190,8 @@ Data Analysis, Operating Systems, Algorithms, Artificial Intelligence, DBMS, Com
 - **System Design:** Ability to architect scalable systems considering performance, scalability, and user experience
 - **Communication:** Clear documentation and effective team collaboration on full-stack projects
 - **Time Management:** Successfully balancing multiple internships and academic responsibilities
-- **Adaptability:** Quick learner who quickly picks up new technologies and frameworks
-- **Initiative:** Self-directed learner exploring AI/ML, DevOps, and advanced backend patterns
+- **Adaptability:** Quick learner who rapidly picks up new technologies and frameworks
+- **Initiative:** Self-directed learner exploring emerging technologies and architectural patterns
 
 ---
 
@@ -207,19 +206,19 @@ Data Analysis, Operating Systems, Algorithms, Artificial Intelligence, DBMS, Com
 
 - **National-Level Athlete:** Tug of War Participant (Amateur Category)
 - **Sports Enthusiast:** Passionate volleyball player
-- **Technology Explorer:** Actively exploring emerging technologies through mini-projects and self-learning
+- **Technology Explorer:** Actively exploring emerging technologies through diverse projects
 
 ---
 
 ## WHY HIRE ME
 
 1. **Full-Stack Capability:** Proven ability to build end-to-end applications from frontend UI to backend API to database design
-2. **Production-Ready Code:** Experience with modern tooling, TypeScript, and best practices for maintainable systems
-3. **Problem Solver:** Tackled real architectural challenges (image storage optimization, multi-service integration)
-4. **Scalability Mindset:** Understanding of async processing, real-time systems, and distributed architecture
-5. **Quick Learner:** Successfully picked up FastAPI, Celery, Redis, Docker, and other technologies independently
-6. **Reliable Contributor:** Actively contributing to production systems as a Project Intern at Inbenne
-7. **AI-Ready:** Hands-on experience with Generative AI, LLM integration, and modern AI workflows
+2. **Backend Expertise:** Strong foundation in Node.js, Express.js, MongoDB, and system architecture
+3. **Production-Ready Code:** Experience with modern tooling, TypeScript, and industry best practices
+4. **Problem Solver:** Tackled real architectural challenges and successfully resolved integration issues
+5. **Scalability Mindset:** Understanding of asynchronous processing, real-time systems, and distributed architecture
+6. **Quick Learner:** Successfully picked up FastAPI, Celery, Redis, Docker, and other technologies independently
+7. **Active Contributor:** Currently contributing to production systems at Inbenne
 
 ---
 
