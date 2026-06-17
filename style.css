@@ -227,3 +227,29 @@ footer {
     display: flex;
   }
 }
+
+.meta-line {
+  margin-top: 16px;
+}
+
+.meta-line a,
+.project-card a {
+  color: #ffdd59;
+}
+
+.wide-card {
+  width: min(700px, 90%);
+  text-align: left;
+}
+
+.detail-list {
+  margin: 10px 0 0 18px;
+  text-align: left;
+}
+
+.contact-links {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
